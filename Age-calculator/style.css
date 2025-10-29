@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(42, 42, 42);
+    margin: 5%;
+    padding: 1rem;
+    border-radius: 20px;
+    
+}
+.container h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.container input[type="text"],
+.container input[type="number"]{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.container #display{ 
+    color: white;
+}
+
+.container button{
+    padding: 0.5rem;
+    width: 10rem;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: ease-in-out;
+}
+
+.container button:hover{
+    transform: scale(1.03);
+}

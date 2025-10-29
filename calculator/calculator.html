@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculate.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+  <div class="container">
+     <input id="demo" >
+     <br>
+  
+      
+    <button  id="car" type="button" onclick=" document.getElementById('car').innerHTML='AC', clearValue()" style="background-color: rgba(255, 255, 255, 0.479); ">AC</button>
+    <button type="button" onclick=" changeValue('(')" style="background-color: rgba(255, 255, 255, 0.479);">(</button>
+    <button type="button" onclick=" changeValue(')')" style="background-color: rgba(255, 255, 255, 0.479);">)</button>
+    <button type="button" onclick=" changeValue('/')" style="background-color: rgb(197, 105, 0);">÷</button>
+    <br><br>
+
+    <button type="button" onclick="document.getElementById('car').innerHTML='C',changeValue('7')">7</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('8')">8</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('9')">9</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('*')" style=
+    "background-color: rgb(197, 105, 0);">x</button>
+ <br><br>
+
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('4')" >4</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('5')">5</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('6')">6</button>
+    <button type="button" onclick=" changeValue('-')" style="background-color: rgb(197, 105, 0);">-</button>
+    <br><br>
+
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('1')">1</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('2')">2</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('3')">3</button>
+    <button type="button" onclick=" changeValue('+')" style="background-color: rgb(197, 105, 0);">+</button>
+    <br><br>
+ 
+    <button style="width: 140px;padding-right: 70px;" type="button" onclick=" changeValue('0')">0</button>
+    <button type="button" onclick="document.getElementById('car').innerHTML='C', changeValue('.')">.</button>
+    <button type="button" onclick=" calculate()" style="background-color: rgb(197, 105, 0);">=</button>
+    
+  </div>
+  <Script src="./calculate.js">
+    alrt("To Be Sure This Is Just A Calculator");
+  </Script>
+      
+    
+</body>
+</html>
